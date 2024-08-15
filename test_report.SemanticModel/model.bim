@@ -2333,6 +2333,19 @@
           }
         ],
         "lineageTag": "49bc72b1-9131-4bc3-83aa-b2ea1bd6d151",
+        "measures": [
+          {
+            "name": "test_unitprice",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MAX(Order_Details[UnitPrice])",
+            "lineageTag": "75a0e66a-2b01-4c90-a12e-cd5f995a7f52"
+          }
+        ],
         "partitions": [
           {
             "name": "Order_Details",
